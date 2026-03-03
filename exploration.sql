@@ -1,0 +1,11 @@
+SELECT * FROM oscars_data;
+SELECT DISTINCT name FROM oscars_data;
+SELECT DISTINCT birth_year FROM oscars_data;
+SELECT DISTINCT birth_date FROM oscars_data;
+SELECT DISTINCT birthplace FROM oscars_data;
+SELECT DISTINCT race_ethnicity FROM oscars_data;
+SELECT DISTINCT religion FROM oscars_data;
+SELECT DISTINCT sexual_orientation FROM oscars_data;
+SELECT DISTINCT year_edition FROM oscars_data ORDER BY year_edition ASC;
+SELECT DISTINCT category FROM oscars_data;
+SELECT DISTINCT movie FROM oscars_data;
