@@ -9,3 +9,10 @@ Nele, tratei de 3 temas:
 O projeto contém:
 
 1 arquivo .sql pra cada um dos temas, um .sql exploratório e o .csv no qual trabalhei.
+
+
+# Como executar
+
+1. Importe o arquivo .csv no MySQL ou SGBD de sua preferência
+2. Crie a tabela oscars_data
+3. Rode os scripts deste projeto
