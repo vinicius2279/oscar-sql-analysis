@@ -1,20 +1,18 @@
-## Análise dos dados históricos dos vencedores do Oscar
+# Análise dos dados históricos dos vencedores do Oscar
 
-O dataset que utilizei é de origem pública e está em: https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046
-Contém dados das edições do Oscar de 1927 a 1990, infelizmente contém muitas informações como NULL, mas mesmo com pequenas coisas faltando e algumas informações ligadas à religião inferidas, consegui fazer algumas análises exploratórias.
+## Visão Geral
 
-Nele, tratei de 3 temas:
-1. Questões ligadas às vitórias
-2. Questões ligadas à religião dos vencedores
-3. Questões ligadas à idade dos vencedores
+Este projeto tem como objetivo explorar informações históricas sobre os vencedores do Oscar utilizando consultas SQL. Além da análise dos dados, o projeto conta com um dashboard desenvolvido em Power BI, que permite visualizar os principais insights de forma clara e intuitiva.
 
-O projeto contém:
+## Objetivos
 
-1 arquivo .sql pra cada um dos temas, um .sql exploratório e o .csv no qual trabalhei.
+- Praticar consultas SQL voltadas pra análise de dados
+- Explorar padrões históricos na premiação
+- Desenvolver dashboards interativos em Power BI
 
+## Tecnologias Utilizadas
 
-# Como executar
-
-1. Importe o arquivo .csv no MySQL ou SGBD de sua preferência
-2. Crie a tabela oscars_data
-3. Rode os scripts deste projeto
+- MySQL – armazenamento e consulta dos dados
+- SQL – manipulação e análise dos dados
+- Power BI – visualização dos resultados
+- GitHub – versionamento e compartilhamento do projeto.
